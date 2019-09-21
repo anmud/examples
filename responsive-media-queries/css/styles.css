@@ -1,0 +1,152 @@
+h1, h2, h3, h4, h5, h6, p {
+ margin: 0;
+ padding: 0;
+}
+.clear {
+ clear:both;
+}
+p {
+ margin: 0 0 1em 0;
+ font-size: 93%;
+ line-height: 1.5em;
+}
+body {
+ font-family: Helvetica, Arial, sans-serif;
+ padding: 0;
+ margin: 0;
+ background-color: #ffffff;
+}
+img {
+ max-width: 100%;
+ height: auto;
+ margin: 0 0 10px 0;
+}
+.logo {
+ font-size: 30px;
+ font-weight: bold;
+ color: #4b4b4b;
+}
+
+/* Section Inner */
+div.section-inner {
+ max-width: 1100px;
+ padding: 0 20px;
+ margin: 0 auto;
+}
+
+/* Header */
+div.header {
+ background-color: #E9E9E9;
+ background-image: url("../images/whirlpool.png");
+ padding: 40px 0;
+}
+
+/* Navigation */
+#dws-menu,
+header label{
+    display: none;
+}
+header nav,
+header .leb-menu {
+ background-color: #04948c;
+}
+.menu {
+ z-index: 100;
+}
+.menu ul {
+ margin: 0;
+ list-style: none;
+ padding: 0;
+ display: flex;
+ justify-content: center;
+}
+
+.menu li{
+    flex-grow: 1;
+    text-align: center;
+}
+.menu li:hover {
+ background: rgba(0,0,0,0.3);
+}
+.menu li a {
+ display: block;
+ padding: 15px 15px;
+ color: #fff;
+ text-decoration: none;
+ text-transform:uppercase;
+ font-size: 16px;
+}
+
+/* Body Content */
+div.body-content {
+ padding: 30px 0;
+ background-color: #FFF;
+}
+div.banner {
+ text-align: center;
+ width: 100%;
+ height: 300px;
+ overflow: hidden;
+ position: relative;
+}
+h2.text-banner {
+ position: absolute;
+ color: #fff;
+ padding: 25px 15px;
+ background-color: rgba(0,0,0,0.3);
+ top: 30%;
+ left: 20%;
+ font-size: 2em;
+}
+/* news-ist */
+div.news-list {
+ padding: 20px 0 20px 0;
+}
+div.one-news {
+ width: 30%;
+ float: left;
+ margin-right: 5%;
+}
+div.one-news-last {
+ margin: 0;
+}
+
+/* Main Column */
+div.main {
+ width: 65%;
+ float: left;
+ margin-right: 5%;
+}
+
+/* right side  */
+div.right-side {
+ width: 30%;
+ float: left;
+}
+
+/* Box */
+div.box-1 {
+ background-color: #9bdaef;
+ padding: 20px;
+ font-size: 13px;
+ margin: 0 0 15px 0;
+}
+div.box-2 {
+ background-color: #f0f3d8;
+ padding: 20px;
+ font-size: 13px;
+ margin: 0 0 15px 0;
+}
+div.box-3 {
+ background-color: #b3b3b3;
+ padding: 20px;
+ font-size: 13px;
+ margin: 0 0 15px 0;
+}
+/* Footer */
+div.footer {
+ background-color: #3f3f3f;
+ color: #FFF;
+ padding: 15px 0;
+ text-align: center;
+}
