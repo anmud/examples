@@ -1,0 +1,315 @@
+/* Setting up our grid */
+.container {
+	width: 100%; /*Set the width of the entire website here */
+	margin-right: auto;
+    margin-left: auto; /* Margin-left and right are set to auto to center the container */
+}
+.seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child { 
+	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
+}
+.eleven {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;
+}
+.ten {
+	width: 83%;
+	float: left;
+	margin-left: 2%;
+}
+.nine {
+	width: 74.5%;
+	float: left;
+	margin-left: 2%;
+}
+.eight {
+	width: 66%;
+	float: left;
+	margin-left: 2%;
+}
+.seven {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;
+}
+.six {
+	width: 49%; /* This div spans six columns (the entire row)*/
+	float: left;
+	margin-left: 2%;
+}
+.five {
+	width: 40.5%; /* This div spans five columns */
+	margin-left: 2%;
+	float:left;
+}
+.four {
+	width: 32%;
+	float:left;
+	margin-left: 2%;
+}
+.three {
+	width: 23.5%;
+	float:left;
+	margin-left: 2%;
+}
+.two {
+	width: 15%;
+	float:left;
+	margin-left: 2%;
+
+}
+.one {
+	width: 6.5%;
+	float:left;
+	margin-left: 2%;
+}
+.row {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+    height: 73px;
+    background-color: #d13328;
+    font-size: 12px;
+}
+
+header h1{
+    padding-left: 8px;
+    padding-top: 18px;
+}
+
+.hero-image {
+    height: 510px;
+    background-image: url('img/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+}
+
+.hero-image h1{
+    text-align: center;
+    margin-top: 90px;
+}
+.hero-image p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.btn{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 0.3rem 0.5rem;
+    text-transform: uppercase;
+
+}
+
+.info {
+    display: block;
+}
+
+.row3 .info h1 {
+    padding-top: 4rem;
+    padding-left: 17rem;
+    padding-right: 17rem;
+}
+
+.row3 .info p {
+    padding: 0 13rem;
+}
+
+.row3 .info .btn {
+    margin: 0 18rem;
+}
+
+.row4 .info h1 {
+    padding-top: 4rem;
+    padding-left: 14rem;
+    padding-right: 14rem;
+}
+
+.row4 .info p {
+    padding: 0 13rem;
+}
+
+.row4 .info .btn {
+    margin: 0 18rem;
+}
+
+
+.row5 .info p {
+    margin-top: 8rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.row5 .info .btn {
+    margin: 0 7rem;
+}
+
+.row6 .info h1 {
+    padding-top: 4rem;
+    padding-left: 14rem;
+    padding-right: 14rem;
+}
+
+.row6 .info p {
+    padding: 0 13rem;
+}
+
+.row6 .info .btn {
+    margin: 0 18rem;
+}
+
+
+.row3 .six, .row3 .three {
+    height: 333px;
+}
+
+.row4 .six, .row4 .three {
+    height: 333px;
+}
+
+.row5 .six, .row5 .three{
+    height: 333px;
+  
+}
+
+.row6 .six, .row6 .three{
+    height: 333px;
+    background-color: #fff68f;
+}
+
+.last{
+    height: 73px;
+    background-color: #d13328;
+}
+
+footer{
+    height: 443px;
+}
+
+.row3 .left {
+    background-image: url('img/image-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.row3 .middle {
+    background-color: #d13328;
+}
+
+.row3 .middle p{
+    padding-top: 15rem;
+    padding-left: 0.5rem;
+    padding-right: 0.2rem;
+    text-align: center;
+}
+
+.row3 .right {
+    background:  linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('img/image-2.jpg'), no-repeat center center;
+    background-size: cover;
+}
+
+.row4 .left {
+    background-color: #d13328;
+}
+
+.row4 .left p{
+    padding-top: 15rem;
+    padding-left: 0.5rem;
+    padding-right: 0.2rem;
+    text-align: center;
+}
+
+.row4 .middle {
+    background-image: url('img/image-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.row4 .right {
+    background-image: url('img/image-10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.row5 .left {
+    background:  linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('img/image-4.jpg'), no-repeat center center;
+    background-size: cover;
+    
+}
+
+.row5 .middle1 {
+    background-image: url('img/image-5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.row5 .middle2 {
+    background-image: url('img/image-6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.row5 .right {
+    background-color: #d13328;
+}
+
+.row5 .right p{
+    padding-top: 15rem;
+    padding-left: 0.5rem;
+    padding-right: 0.2rem;
+    text-align: center;
+}
+
+.row6 .left{
+    background-image: url('img/image-7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.row6 .middle{
+    background-image: url('img/image-8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.row6 .right{
+    background-image: url('img/image-9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.row7 {
+    background-color: #e5e3d8;
+    color: #d13328;
+}
+
+footer{
+    margin-left: 16rem;
+    margin-top: 9rem;
+}
+
+.row3, .row4, .row5, .row6, .row7 {
+    padding-top: 30px;
+}
+
+header, .hero-image, .row3, .row4, .row5, .row6 {
+    color: white;
+}
