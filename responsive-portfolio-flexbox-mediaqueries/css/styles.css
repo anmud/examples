@@ -4,7 +4,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/*HEADER STYLES*/
+#landing {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 100px 20px;
+}
+
 #header {
     padding: 15px;
     background-color: gray;
@@ -16,12 +23,11 @@
     opacity: .88;
 }
 
-
 #header h2 {
-   cursor: default; 
+    cursor: default;
 }
 
-#links{
+#links {
     margin-right: 20px;
 }
 
@@ -35,22 +41,11 @@
     color: black;
     border-bottom: 0px solid white;
     transition: border 150ms, padding 150ms;
-
 }
 
 #links ul li a:hover {
     border-bottom: 2px solid white;
     padding-bottom: 15px;
-}
-
-/*LANDING STYLES*/
-
-#landing{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    padding: 100px 20px;
 }
 
 .profCard {
@@ -68,16 +63,177 @@
 .profCard img {
     height: 250px;
     border-radius: 4px;
-    box-shadow: 2px 2px 8px rgb(46,46,46)
+    box-shadow: 2px 2px 8px rgb(46, 46, 46);
 }
 
-@media only screen and (max-width:480px){
+.info {
+    width: 60%;
+    padding: 10px;
+}
+
+.info p {
+    padding: 10px 0;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.socialLinks a {
+    color: rgb(88, 180, 255);
+    transition: color 200ms;
+}
+
+.socialLinks a:hover {
+    color: rebeccapurple;
+}
+
+.socialLinks a:active {
+    color: white;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.projects h1 {
+    margin-bottom: 50px;
+    border-bottom: 2px solid black;
+    color: rebeccapurple;
+}
+
+.proj {
+    display: flex;
+    margin: auto;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    background-color: rgb(240, 240, 240);
+}
+
+.projInfo {
+    padding: 20px;
+}
+
+.projInfo h2 {
+    border-bottom: 4px double rgb(80, 80, 80);
+    margin-bottom: 15px;
+}
+
+.proj img {
+    width: 40%;
+    align-self: flex-start;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: rgb(78, 78, 78);
+}
+
+#contact h1 {
+    margin-bottom: 50px;
+    color: rgb(88, 180, 255);
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form input, textarea {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+button {
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 14pt;
+    cursor: pointer;
+    background-color: rgb(88, 180, 255);
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 5px black;
+    transition: box-shadow 150ms, background-color 150ms, color 150ms;
+}
+
+button:active {
+    box-shadow: none;
+    background-color: rgb(75, 152, 214);
+    color: rgb(44, 44, 44);
+}
+
+#contact img {
+    height: 300px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 6px black;
+}
+
+footer {
+    padding: 10px;
+    background-color: gray;
+}
+
+footer p {
+    width: fit-content;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+    #landing {
+        padding: 80px 20px;
+    }
+    .profCard {
+        width: 90%;
+        padding: 20px;
+    }
+    .info {
+        width: 100%;
+    }
     #header h2, #links {
         margin: auto;
     }
-    #links ul li a:hover{
+    #links ul li a:hover {
         border-bottom: 2px solid white;
         padding-bottom: 12px;
     }
+    .socialLinks {
+        padding: 3px;
+    }
+    
+    .info h2 {
+        display: none;
+    }
+    .profCard img {
+        height: 200px;
+    }
+    .projects {
+        padding: 20px;
+    }
+    .proj {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .proj2 {
+        width: 100%;
+        flex-wrap: wrap-reverse;
+    }
+    .proj img {
+        margin: auto;
+        width: 100%;
+    }
+    #contact img {
+        display: none;
+    }
 }
-
