@@ -1,7 +1,12 @@
 /*Core Styles*/
+html{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 body{
     margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: #333;
     color: #fff;

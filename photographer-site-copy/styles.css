@@ -1,0 +1,193 @@
+/*Core Styles*/
+
+body{
+    margin: 0;
+    padding :0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: black;
+    font-size: 100%;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.page {
+    margin: auto;
+    width: 100%; /*Set the width of the entire website here */
+   }
+
+.container {
+	width: 100%; 
+	margin-right: auto;
+    margin-left: auto; /* Margin-left and right are set to auto to center the container */
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 1em 0;
+}
+
+p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    padding: 1.3em 2.3em;
+    margin: .5em 0;
+    border: 1px solid #666;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.btn:hover{
+    background: #105900;
+    color: #fff;
+}
+
+/*Header*/
+
+#general-header {
+    width: 100%;
+    min-height: 750px;
+    color: #333;
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: 750px;
+    background-image: url(images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+}
+
+
+#dws-menu,
+header label{
+    display: block;
+    float: left;
+}
+
+header .nav-container {
+    width: 85.10%; /* 800 / 940 */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header .leb-menu {
+ background-color: transparent;
+ width: 06.25%;
+ flex: 1;
+ padding-top: 1.7rem;
+}
+
+header .leb-menu i{
+    font-size: 2em;
+}
+
+header .leb-menu a{
+    font-size: 1.2em;
+} 
+header .section-inner {
+    padding: 2.2rem;
+}
+.menu {
+ z-index: 100;
+ width: 93.75%; /*  750 / 800   */
+ flex: 3;
+}
+
+
+.menu ul {
+ margin: 0;
+ list-style: none;
+ display: flex;
+ justify-content: space-between;
+}
+
+.menu li {
+    flex-grow: 1;
+    text-align: center;
+    color: #333;
+}
+.menu li a:hover {
+ color: #105900;
+}
+.menu li a {
+ display: block;
+ text-decoration: none;
+ font-size: 0.85em;
+ font-weight: bold;
+}
+
+.content-wrap{
+    width: 85.10%;  /* 800 / 940 */
+    padding-top: 9rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.content-wrap h3{
+    font-style: italic;
+}
+
+.content-wrap h1 {
+    width: 85.87%; /* 687 / 800 */
+    font-style: italic;
+    font-size: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+.content-wrap a{
+ font-weight: bold;
+}
+
+/*Section A*/
+
+#section-a{
+    width: 100%;
+    padding: 2em 1em 1em;
+}
+
+#section-a .box-wrap {
+    display: flex;
+}
+
+#section-a .card{
+    width: 31.59%;
+}
+
+#section-a ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+#section-a li {
+    background: #fff;
+    color: #333;
+}
+
+.card-content {
+    padding: 1.5em;
+}
